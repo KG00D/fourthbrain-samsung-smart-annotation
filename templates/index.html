@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+
+    <title>Carousel Template · Bootstrap v5.0</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+        /* .temp {
+            background-color: red;
+            color: white;
+        }
+        
+        p {
+            margin: 100px;
+        } */
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="static/styles/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Samsung Smart Annotation Team</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- <p class="temp" id="room">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis ducimus quos, molestias optio deleniti excepturi dolorem autem alias quisquam beatae recusandae, possimus ad ipsam et labore, inventore nihil laudantium officia?
+        </p> -->
+
+        <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></svg>
+
+                    <div class="container">
+                        <div class="carousel-caption text-start">
+                            <h1>One of the fastest growing fields in Machine Learning</h1>
+                            <p>26% CAGR expected over next ten years</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></svg>
+
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Another example headline.</h1>
+                            <p>Some representative placeholder content for the second slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></svg>
+
+                    <div class="container">
+                        <div class="carousel-caption text-end">
+                            <h1>One more for good measure.</h1>
+                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!-- Marketing messaging and featurettes
+  ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="/static/annotation1.jpeg" alt="Oh Noes" width=150 height=150>
+                    <h2>Single-Image Annotation API</h2>
+                    <p>One image, One prediction</p>
+
+                    <form action="/submit_single" method="POST" enctype="multipart/form-data" target="_blank">
+                        <div class="mb-3">
+                            <label for="file" class="form-label"></label>
+                            <input class="form-control form-control-sm" name="file" id="formFileSm1" type="file">
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-6">
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <img src="/static/bulkimages.png" alt="Oh Noes" width=150 height=150>
+                    <h2>Bulk Image Annotation</h2>
+                    <p>Zip of images in, Zip of annotated images out</p>
+
+                    <form action="/submit_multi" method="POST" enctype="multipart/form-data" target="_blank">
+                        <div class="mb-3">
+                            <label for="multi_file" class="form-label"></label>
+                            <input class="form-control form-control-sm" name="multi_file" id="formFileSm2" type="file">
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-6">
+                                <button type="submit" class="btn btn-primary ">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4 ">
+                    <img src="/static/video.png " alt="Oh Noes " width=150 height=150>
+                    <h2>Video Annotation</h2>
+                    <p>Single video file, under 25megs</p>
+                    <div class="mb-3 ">
+                        <label for="formFileDisabled " class="form-label "></label>
+                        <input class="form-control " type="file " id="formFileDisabled " onchange="uploadFile3(event) " disabled>
+                    </div>
+                    <div class="form-group ">
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+
+            <!-- {% if prediction %}
+            <img src="/runs/hub/{{img_path}}" height="200px" width="200px">
+            <h4> Your Prediction : <i> {{prediction}} </i></h4>
+
+            {% endif %} -->
+
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider ">
+
+            <div class="row featurette ">
+                <div class="col-md-7 ">
+                    <h2 class="featurette-heading ">Upload your image(s) or video requiring labeling<span class="text-muted "></span></h2>
+                    <p class="lead ">It’ll blow your mind.</p>
+                </div>
+                <div class="col-md-5 ">
+                    <img src="/static/catdog.jpg" alt="Oh Noes " width=500 height=500>
+                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto " width="500 " height="500 " xmlns="http://www.w3.org/2000/svg " role="img " aria-label="Placeholder: 500x500 " preserveAspectRatio="xMidYMid
+                                slice " focusable="false "><title>Placeholder</title><rect width="100% " height="100% " fill="#eee "/><text x="50% " y="50% " fill="#aaa " dy=".3em ">500x500</text></svg> -->
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider ">
+
+            <div class="row featurette ">
+                <div class="col-md-7 order-md-2 ">
+                    <h2 class="featurette-heading ">Oh yeah, it’s that good. <span class="text-muted ">See for yourself.</span></h2>
+                    <p class="lead ">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+                </div>
+                <div class="col-md-5 order-md-1 ">
+                    <img src="/static/catdog_with_BB.jpg" alt="Oh Noes " width=500 height=500>
+                    <!-- <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto " width="500 " height="500 " xmlns="http://www.w3.org/2000/svg " role="img " aria-label="Placeholder: 500x500 " preserveAspectRatio="xMidYMid
+                                slice " focusable="false "><title>Placeholder</title><rect width="100% " height="100% " fill="#eee "/><text x="50% " y="50% " fill="#aaa " dy=".3em ">500x500</text></svg> -->
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider ">
+
+            <div class="row featurette ">
+                <div class="col-md-7 ">
+                    <h2 class="featurette-heading ">And lastly, this one. <span class="text-muted ">Checkmate.</span></h2>
+                    <p class="lead ">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+                </div>
+                <div class="col-md-5 ">
+                    <img src="/static/catdog_semantic.png" alt="Oh Noes " width=500 height=500>
+
+                </div>
+            </div>
+
+            <hr class="featurette-divider ">
+
+            <!-- /END THE FEATURETTES -->
+
+        </div>
+        /.container
+
+
+        <!-- FOOTER -->
+        <footer class="container ">
+            <p class="float-end "><a href="# ">Back to top</a></p>
+            <p>&copy; 2017–2021 Company, Inc. &middot; <a href="# ">Privacy</a> &middot; <a href="# ">Terms</a></p>
+        </footer>
+    </main>
+
+
+    <script src="/static/styles/bootstrap.bundle.min.js "></script>
+    <script src="/static/styles/index.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js "></script>
+
+
+</body>
+
+</html>
